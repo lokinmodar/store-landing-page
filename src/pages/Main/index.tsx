@@ -1,9 +1,13 @@
-import React, { useEffect } from 'react';
+import React /* , { useEffect } */ from 'react';
+import SectionContainer from '../../components/SectionContainer';
 
-export default function Main(): JSX.Element {
-  return (
-    <>
-      <h1>Hello!</h1>
-    </>
-  );
-}
+const Main = (): JSX.Element => (
+  <>
+    <SectionContainer>
+      <section id='content'>
+        <h1>Hello!</h1>
+      </section>
+    </SectionContainer>
+  </>
+);
+export default Main;

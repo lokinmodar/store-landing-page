@@ -6,7 +6,9 @@
   "extends": [
     "plugin:react/recommended",
     "airbnb",
-    "plugin:@typescript-eslint/recommended"
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended",
+    "prettier"
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
@@ -44,7 +46,9 @@
     "react/prop-types": "off",
     "indent": "off",
     "object-curly-newline": "off",
-    "jsx-quotes": ["error", "prefer-single"]
+    "jsx-quotes": ["error", "prefer-single"],
+    "comma-dangle": ["error", "never"],
+    "react/jsx-one-expression-per-line": "off"
   },
   "settings": {
     "import/resolver": {
