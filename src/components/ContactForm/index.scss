@@ -1,4 +1,11 @@
 article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+
+
+
   form {
     background: #111;
     opacity: 85%;
