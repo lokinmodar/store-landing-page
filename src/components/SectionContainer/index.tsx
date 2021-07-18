@@ -6,18 +6,20 @@ const SectionContainer = styled.section`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: 90%;
+  max-width: 95%;
   border-radius: 6px;
+  color: #fff;
 
   margin: 0 auto;
 
-  height: 60vh;
-  width: 80%;
+  height: 75vh;
+  width: 90%;
 
   #content {
     display: flex;
     flex-direction: column;
-    max-width: 60%;
+    justify-content: center;
+    max-width: 90%;
     height: 100%;
     margin-top: 15px;
     margin-bottom: 15px;
