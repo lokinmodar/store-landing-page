@@ -12,10 +12,6 @@ const ContactForm = (): JSX.Element => {
     const validation = formValidation(inputs.email);
     if (validation) {
       window.localStorage.setItem('E-mail', JSON.stringify(inputs.email));
-
-      //.log('Salvo!', inputs.email);
-    } else {
-      //console.log('E-mail inválido');
     }
   };
 
