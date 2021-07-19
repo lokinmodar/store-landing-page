@@ -1,11 +1,11 @@
 import Carousel, { autoplayPlugin } from '@brainhubeu/react-carousel';
 import '@brainhubeu/react-carousel/lib/style.css';
 import React, { useState } from 'react';
-import games from '../../images/games.png';
-import consoles from '../../images/consoles.png';
-import rpg from '../../images/rpg.png';
-import cardgames from '../../images/cardgames.png';
-import salada from '../../images/salada.png';
+import games from '../../images/games_.png';
+import consoles from '../../images/consoles_.png';
+import rpg from '../../images/rpg_.png';
+import cardgames from '../../images/cardgames_.png';
+import salada from '../../images/salada_.png';
 
 const OffersCarousel = (): JSX.Element => {
   const [value, setValue] = useState(0);

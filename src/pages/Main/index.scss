@@ -1,9 +1,10 @@
 #bflogo {
   position: fixed;
   z-index: 3;
-  top: 60px;
+  top: 6vh;
   height: 30vh;
-  left: 10vw;
+  left: 4vw;
+
 
 }
 
@@ -11,4 +12,8 @@
   margin-top: 10%;
   width: 100%;
   height: 60vh;
+  img {
+    margin-top: 10vh;
+    width: 70vw;
+  }
 }

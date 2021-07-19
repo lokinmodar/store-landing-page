@@ -12,6 +12,7 @@ const ContactForm = (): JSX.Element => {
     const validation = formValidation(inputs.email);
     if (validation) {
       window.localStorage.setItem('E-mail', JSON.stringify(inputs.email));
+      setInputs({ email: '' });
     }
   };
 
