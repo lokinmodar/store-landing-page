@@ -1,14 +1,15 @@
 article {
+
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-bottom: 2%;
 
 
 
 
   form {
-    background: #111;
-    opacity: 85%;
+
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -18,7 +19,7 @@ article {
     color: #fff;
 
 
-    border: 1px green solid;
+
 
 
 
@@ -45,7 +46,7 @@ article {
 
 
     input[type="email"] {
-      width: 60%;
+      width: 80%;
 
       border: 2px solid #fff;
 
@@ -53,6 +54,9 @@ article {
     }
 
     button {
+      font-family: 'Yanone Kaffeesatz', 'Noto Mono', 'Arial Narrow', sans-serif;
+      font-weight: 400;
+      font-size: 22px;
       width: 120px;
       height: 40px;
     }

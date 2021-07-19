@@ -24,7 +24,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: #000 url('./images/background.jpg') center top repeat;
+  background: rgba(0,0,0,0.5) url('./images/background.jpg') center top repeat;
   @include _background-size(cover);
 }
 
@@ -44,6 +44,9 @@ main {
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+
+
 
 @keyframes App-logo-spin {
   from {

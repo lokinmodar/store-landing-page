@@ -29,7 +29,8 @@ const ContactForm = (): JSX.Element => {
     <article>
       <form onSubmit={handleSubmit}>
         <label htmlFor='email'>
-          Email:
+          Insira seu endereço de e-mail para saber mais:
+          <br />
           <input
             type='email'
             name='email'
@@ -43,7 +44,7 @@ const ContactForm = (): JSX.Element => {
           />
         </label>
 
-        <button type='submit'>Submit</button>
+        <button type='submit'>Enviar!</button>
       </form>
     </article>
   );

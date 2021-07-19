@@ -100,15 +100,19 @@ footer {
       a {
         text-decoration: none;
         height: 0;
+        .git {
+          color: #fff;
+          width: 35px;
+          height: 35px;
+        }
       }
-      img {
-        height: 30px;
-      }
+
       #dev {
         font-family: 'Open Sans', sans-serif;
         font-size: 7px;
         padding: 5px;
         text-align: center;
+
       }
     }
 
@@ -163,6 +167,7 @@ footer {
         width: 35px;
         height: 35px;
       }
+
     }
   }
 

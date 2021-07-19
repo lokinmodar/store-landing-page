@@ -2,7 +2,7 @@ import React, { FunctionComponent } from 'react';
 
 import { Link } from 'react-router-dom';
 
-import { FaFacebookSquare, FaWhatsappSquare } from 'react-icons/fa';
+import { FaLinkedin, FaWhatsappSquare, FaGithubSquare } from 'react-icons/fa';
 
 import './index.scss';
 import LogoTope from '../../images/logo-tope-mini.svg';
@@ -17,12 +17,12 @@ const PageFooter: FunctionComponent = () => (
     <section id='cont'>
       <div id='left'>
         <Link
-          to='/facebook'
+          to='/linkedin'
           target='_blank'
           rel='noopener noreferrer'
-          title='Clique aqui para entrar em contato pelo Facebook.'
+          title='Clique aqui para entrar em contato pelo LinkedIn.'
         >
-          <FaFacebookSquare className='fb' />
+          <FaLinkedin className='fb' />
         </Link>
         <Link
           to='/whatsapp'
@@ -38,20 +38,14 @@ const PageFooter: FunctionComponent = () => (
         <p id='mail'>dsouzaesouza@gmail.com</p>
       </div>
       <div id='right'>
-        <p id='dev'>
-          Site por:
-          <br />
-          Dante Souza e Souza
-        </p>
-
         <div>
           <Link
             target='_blank'
             rel='noopener noreferrer'
             to='/developer'
-            title='The Old Pink Eye'
+            title='Cique para acessar o repositório no Github!'
           >
-            <img src={LogoTope} alt='Logo The Old Pink Eye' />
+            <FaGithubSquare className='git' />
           </Link>
         </div>
       </div>
