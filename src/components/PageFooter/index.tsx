@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom';
 import { FaLinkedin, FaWhatsappSquare, FaGithubSquare } from 'react-icons/fa';
 
 import './index.scss';
-import LogoTope from '../../images/logo-tope-mini.svg';
 
 const PageFooter: FunctionComponent = () => (
   <footer>
