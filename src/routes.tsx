@@ -33,7 +33,7 @@ export default function Routes(): JSX.Element {
           component={() => {
             // eslint-disable-next-line operator-linebreak
             window.location.href =
-              'https://github.com/lokinmodar/store-landing-page';
+              'https://github.com/lokinmodar/store-landing-page/';
             return null;
           }}
         />

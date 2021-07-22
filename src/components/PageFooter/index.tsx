@@ -41,7 +41,7 @@ const PageFooter: FunctionComponent = () => (
           <Link
             target='_blank'
             rel='noopener noreferrer'
-            to='/developer'
+            to='/repo'
             title='Cique para acessar o repositório no Github!'
           >
             <FaGithubSquare className='git' />
